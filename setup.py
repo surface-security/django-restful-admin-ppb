@@ -1,8 +1,3 @@
-"""
-See:
-https://github.com/amirasaran/djang-restful-admin
-"""
-
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 # To use a consistent encoding
@@ -16,14 +11,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='django-restful-admin',
-    version='1.1.3',
-    description='Python Django RestFul Admin',
+    name='django-restful-admin-ppb',
+    version='1.1.4',
+    description='Python Django RestFul Admin (forked by PPB)',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/amirasaran/django-restful-admin',
-    author='Amir Mohsen Asaran',
-    author_email='admin@mihanmail.com',
+    url='https://github.com/surface-security/django-restful-admin-ppb/',
+    author='PPB - InfoSec Engineering',
+    author_email='surface@paddypowerbetfair.com',
     license='MIT',
     classifiers=[
         # How mature is this project? Common values are
